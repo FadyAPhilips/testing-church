@@ -1,0 +1,40 @@
+.tab-system {
+  width: 100%;
+}
+
+.tab-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.tab-buttons div {
+  height: 5vh;
+  width: 100%;
+  color: black;
+  /* background-color: grey; */
+  padding: 00px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid lightgrey;
+  transition: 0.3s;
+}
+
+.tab-buttons div:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  /* border-bottom: 2px solid gold; */
+  transition: 0.3s;
+}
+
+.tab-buttons div.active {
+  /* background-color: limegreen; */
+  border-bottom: 2px solid goldenrod;
+  transition: 0.3s;
+
+}
+
+.tab-content {
+  margin: 20px;
+  width: 80vw;
+}

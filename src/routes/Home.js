@@ -1,12 +1,12 @@
 import React from 'react';
-import './home.css'
+import './app.css'
 import Navbar from '../UI/Navbar'
 
 const Home = (props) => {
 
     return (
         <div>
-            <div id='titleDiv'>
+            <div className='titleDiv home'>
                 <div id='title'>
                     <div id='titleText'>
                         Newfoundland Coptic Church
@@ -16,7 +16,7 @@ const Home = (props) => {
             <Navbar />
             <div className='Heading'>Upcoming Events</div>
             <div>Calender</div>
-        </div>
+        </div >
     );
 };
 
