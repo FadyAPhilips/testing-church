@@ -14,6 +14,6 @@ function App() {
 }
 
 
-//Tetsing GIT
+//Testing GIT
 
 export default App;
