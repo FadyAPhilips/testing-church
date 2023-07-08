@@ -1,6 +1,7 @@
 import React from 'react';
 import './app.css'
 import Navbar from '../UI/Navbar'
+import Footer from '../UI/Footer';
 import Tabs from '../UI/TabSystem'
 
 
@@ -20,6 +21,7 @@ const About = (props) => {
             <div className='flexCenter pageContainer'>
                 <Tabs />
             </div>
+            <Footer />
         </div>
     );
 };

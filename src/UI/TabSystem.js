@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './tabSystem.css';
+import '../routes/app.css'
 
 const TabSystem = () => {
     const [activeTab, setActiveTab] = useState('section1');
