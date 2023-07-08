@@ -61,3 +61,18 @@
     border: none;
     height: 655px;
 }
+
+.flexColumns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.customImg {
+    width: 30vw;
+    height: fit-content;
+}
+
+.textP {
+    font-size: 18pt;
+    padding: 2vh;
+}
