@@ -45,6 +45,7 @@ const Section1 = () => {
     return <div>History of the coptic church</div>;
 };
 
+
 const Section2 = () => {
     return <div>
         <div>Info About The Pope</div>

@@ -29,7 +29,7 @@
 
 .tab-buttons div.active {
   /* background-color: limegreen; */
-  border-bottom: 2px solid goldenrod;
+  border-bottom: 2px solid #daa520;
   transition: 0.3s;
 
 }

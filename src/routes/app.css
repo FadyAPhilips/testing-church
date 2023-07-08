@@ -31,18 +31,33 @@
 }
 
 .Heading {
-    font-size: 5vh;
+    font-size: 4vh;
     font-weight: 500;
-
+    margin: 2vh;
 }
 
 .flexCenter {
     display: flex;
-    justify-content: center
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .pageContainer {
     width: 100vw;
     /* padding: 20px; */
     /* margin: 20px; */
+}
+
+.content {
+    width: 80vw;
+    /* height: 1000px; */
+    /* padding: 20px; */
+    /* margin: 20px; */
+}
+
+.calendar {
+    width: 80%;
+    border: none;
+    height: 655px;
 }
