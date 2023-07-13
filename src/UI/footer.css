@@ -1,15 +1,51 @@
 .footer {
-    background-color: #f1f1f1;
+    background-color: #212329d4;
     padding: 20px;
     text-align: center;
     margin-top: 2vh;
+    color: aliceblue;
 }
+
+/* .contact {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3vh;
+} */
 
 .footer-content {
     margin: 0 auto;
     max-width: 960px;
 }
 
+.contact-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact-column {
+    flex-basis: 50%;
+}
+
+.contact-column h4 {
+    margin-top: 0;
+}
+
+.copy-section {
+    margin-top: 20px;
+}
+
 .footer p {
     margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .contact-column {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+.footer a {
+    color: aliceblue;
 }
