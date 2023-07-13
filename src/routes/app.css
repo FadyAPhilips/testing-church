@@ -76,3 +76,8 @@
     font-size: 18pt;
     padding: 2vh;
 }
+
+.donations {
+    width: 100%;
+    justify-content: space-evenly;
+}

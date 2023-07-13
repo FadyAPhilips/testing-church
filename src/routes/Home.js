@@ -1,6 +1,7 @@
 import React from 'react';
 import './app.css'
 import Navbar from '../UI/Navbar'
+import Donate from '../UI/Donate'
 import Footer from '../UI/Footer';
 
 
@@ -30,6 +31,8 @@ const Home = (props) => {
                     <script async type="module" src="https://embed.styledcalendar.com/assets/parent-window.js"></script>
                     <div className='Heading'>Live stream</div>
                     <iframe width="80%" height="400px" src="https://www.youtube.com/embed/cQ4EkW1NASs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div className='Heading'>Donate</div>
+                    <Donate />
                 </div>
             </div>
             <Footer />
