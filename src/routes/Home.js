@@ -1,6 +1,7 @@
 import React from 'react';
 import './app.css'
 import Navbar from '../UI/Navbar'
+import YTLive from '../UI/YouTubeLivestream'
 import Donate from '../UI/Donate'
 import Footer from '../UI/Footer';
 
@@ -30,9 +31,10 @@ const Home = (props) => {
                     <iframe src="https://embed.styledcalendar.com/#jrEKAn5zo1Waur3QIV6O" title="Styled Calendar" class="styled-calendar-container" className="calendar" data-cy="calendar-embed-iframe"></iframe>
                     <script async type="module" src="https://embed.styledcalendar.com/assets/parent-window.js"></script>
                     <div className='Heading'>Live stream</div>
-                    <iframe width="80%" height="400px" src="https://www.youtube.com/embed/cQ4EkW1NASs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    {/* <iframe width="80%" height="400px" src="https://www.youtube.com/embed/cQ4EkW1NASs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+                    <YTLive />
                     <div className='Heading'>Donate</div>
-                    <Donate />
+                    <Donate channelId={"UCvaEBWbJ4EUvNfbgUJ_5W_w"} />
                 </div>
             </div>
             <Footer />
