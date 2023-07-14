@@ -29,8 +29,7 @@ const Navbar = () => {
             <div className="navbar-nav">
                 <div className="nav-item"><a href="/" className={navbarBg === 'white' ? 'nav-link black' : 'nav-link'}>Home</a></div>
                 <div className="nav-item"><a href="/about" className={navbarBg === 'white' ? 'nav-link black' : 'nav-link'}>About</a></div>
-                <div className="nav-item"><a href="#" className={navbarBg === 'white' ? 'nav-link black' : 'nav-link'}>Gallery</a></div>
-                <div className="nav-item"><a href="#" className={navbarBg === 'white' ? 'nav-link black' : 'nav-link'}>Contact</a></div>
+                <div className="nav-item"><a href="/gallery" className={navbarBg === 'white' ? 'nav-link black' : 'nav-link'}>Gallery</a></div>
             </div>
         </div>
     );

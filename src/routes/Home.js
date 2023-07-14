@@ -18,8 +18,8 @@ const Home = (props) => {
     return (
         <div>
             <div className='titleDiv home'>
-                <div id='title'>
-                    <div id='titleText'>
+                <div className='title'>
+                    <div className='titleText'>
                         Newfoundland Coptic Church
                     </div>
                 </div>
