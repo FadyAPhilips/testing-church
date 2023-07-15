@@ -74,6 +74,11 @@ const Contact = (props) => {
                         </a></h3>
                     </div>
                 </div>
+                <h3>Find a bug on this website? Contact one of our developers:</h3>
+                <div className='flexColumns ourChurches'>
+                    <p>Mark Armanious: markarmanus@gmail.com</p>
+                    <p>Fady Philips: fadyaphilips97@gmail.com</p>
+                </div>
             </div>
             <Footer />
         </div>

@@ -1,3 +1,8 @@
+@font-face {
+    font-family: FreeSerifAvvaShenouda;
+    src: url(../fonts/FreeSerifAvvaShenouda.ttf);
+}
+
 .titleDiv {
     max-height: 100vh;
     max-width: 100vw;
@@ -44,6 +49,18 @@
     font-size: 4vh;
     font-weight: 500;
     margin: 2vh;
+}
+
+.opening {
+    font-weight: 500;
+    font-size: xx-large;
+    /* margin-top: 3vh; */
+    font-family: FreeSerifAvvaShenouda;
+    text-align: center;
+    background-color: #dcdcdc;
+    padding: 0vh 2vh;
+    border-radius: 2vh;
+    max-width: 70%;
 }
 
 .flexCenter {
@@ -124,5 +141,11 @@
 
     .ourChurches {
         width: 90%;
+    }
+
+    .opening {
+        font-size: large;
+        max-width: 90%;
+
     }
 }

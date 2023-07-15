@@ -5,6 +5,12 @@ const Donate = () => {
     return (
         <div className="donation-component">
             <div className="donation-box">
+                <div className="verse">
+                    <h3>
+                        Each of you should give what you have decided in your heart to give, not reluctantly or under compulsion, for God loves a cheerful giver.
+                    </h3>
+                    <p>(2 Corinthians 9:7)</p>
+                </div>
                 <div className="donation-instructions">
                     <div className="donation-column">
                         <h3>Donate by Cash or Cheque</h3>
@@ -26,7 +32,7 @@ const Donate = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     );
 }
 

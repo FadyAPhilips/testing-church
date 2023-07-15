@@ -2,6 +2,11 @@
     padding: 20px;
 }
 
+.verse {
+    border-bottom: 1px solid #bbb;
+    margin: 2vh;
+}
+
 .donation-instructions {
     display: flex;
     flex-wrap: wrap;
@@ -46,12 +51,13 @@
         background-color: #f1f1f1;
         padding: 20px;
         border-radius: 5px;
+        text-align: center;
     }
 
     .donation-instructions {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     .donation-column {
@@ -96,5 +102,9 @@
 
     .donation-column {
         flex-basis: 48%;
+    }
+
+    .verse {
+        max-width: 50vw;
     }
 }

@@ -27,6 +27,12 @@ const Home = (props) => {
             <Navbar />
             <div className='flexCenter'>
                 <div className='content flexCenter'>
+
+                    <div className='opening' style={{ marginTop: "3vh" }}>
+                        <p >In the name of the Father, Son and the Holy Spirit, One God, Amen</p>
+                        <p >Ϧⲉⲛ ⲫ̀ⲣⲁⲛ ⲙ̀Ⲫ̀ⲓⲱⲧ ⲛⲉⲙ  Ⲡ̀ϣⲏⲣⲓ ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ  ⲉⲑⲟⲩⲁⲃ, Ⲟⲩⲛⲟⲩϯ ⲛ̀ⲟⲩⲱⲧ, ⲁ̀ⲙⲏⲛ</p>
+                    </div>
+
                     <div className='Heading'>Upcoming Events</div>
                     <iframe src="https://embed.styledcalendar.com/#jrEKAn5zo1Waur3QIV6O" title="Styled Calendar" class="styled-calendar-container" className="calendar" data-cy="calendar-embed-iframe"></iframe>
                     <script async type="module" src="https://embed.styledcalendar.com/assets/parent-window.js"></script>

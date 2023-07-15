@@ -6,7 +6,7 @@ const Footer = () => {
         <footer className="footer">
             <div className="footer-content">
                 <div className="copy-section">
-                    <p>&copy; 2023 Your App. All rights reserved.</p>
+                    <p>&copy; 2023 NLCoptic. All rights reserved.</p>
                 </div>
             </div>
         </footer>
