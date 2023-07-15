@@ -22,7 +22,7 @@ const Donate = () => {
                             you can send your donation to info@stmaurice.net. PayPal offers a secure method for donating online, accommodating
                             our generous supporters worldwide. You can donate using a major credit card even without a PayPal account.
                         </p>
-                        <a class="donate-button" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=NTH7549DX2EQL">Donate Now</a>
+                        <a class="donate-button" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=NTH7549DX2EQL" target="_blank">Donate Now</a>
                     </div>
                 </div>
             </div>

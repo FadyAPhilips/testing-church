@@ -48,6 +48,7 @@
         flex-basis: 45%;
         max-width: 45%;
         height: auto;
+        object-fit: cover;
         margin-bottom: 0;
         order: unset;
     }

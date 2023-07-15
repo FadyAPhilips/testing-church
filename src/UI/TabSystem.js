@@ -118,11 +118,10 @@ const Section3 = () => {
         },
         {
             image: bishopImg,
-            title: "St. Mary Coptic Church, Gander",
+            title: "St. Mary, St. Verina and St. Moses the Black Coptic Church, Gander",
             textList: [
-                'His Grace Bishop Boulos joined the Baramos Monastery on November 18th, 2001, and was ordained as a monk on February 23rd, 2004. Continuing his spiritual journey, he received ordination as a priest on March 7th, 2009.',
-                'On June 9th, 2019, he was further honored by being ordained as the Bishop of the Coptic Orthodox Diocese of Ottawa, Montreal, and Eastern Canada. ',
-                'With great joy and reverence, His Grace Bishop Boulos was officially enthroned on August 20th, 2019, to begin his sacred role as the bishop of the diocese.',
+                'The Church in Gander was started by generous donation froms local families in 2023.',
+                'The church was established under the auspices of his grace Bishop Boulos and Father Demetrios. The Church also includes a confrence area and living arangements to allow for regional and local retreats.',
             ],
         },
     ];

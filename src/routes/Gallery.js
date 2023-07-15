@@ -7,7 +7,7 @@ const Gallery = (props) => {
 
     return (
         <div>
-            <div className='titleDiv about' >
+            <div className='titleDiv gallery' >
                 <div className='title'>
                     <div className='titleText'>
                         Photo Gallery
