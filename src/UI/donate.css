@@ -50,8 +50,10 @@
     .donation-box {
         background-color: #f1f1f1;
         padding: 20px;
-        border-radius: 5px;
+        /* border-radius: 5px; */
         text-align: center;
+        border: 2px solid #212329d4;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     }
 
     .donation-instructions {
