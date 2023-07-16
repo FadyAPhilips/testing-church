@@ -38,3 +38,13 @@
   margin: 20px;
   width: 70vw;
 }
+
+@media screen and (max-width: 768px) {
+  .tab-content {
+    width: 90vw;
+  }
+
+  .tab-buttons div {
+    font-size: 12pt;
+  }
+}

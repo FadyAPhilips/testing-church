@@ -23,7 +23,7 @@ const TabSystem = () => {
                     className={activeTab === 'section1' ? 'active' : ''}
                     onClick={() => handleTabClick('section1')}
                 >
-                    The Coptic Church
+                    Coptic History
                 </div>
                 <div
                     className={activeTab === 'section2' ? 'active' : ''}
@@ -35,7 +35,7 @@ const TabSystem = () => {
                     className={activeTab === 'section3' ? 'active' : ''}
                     onClick={() => handleTabClick('section3')}
                 >
-                    Churches of NL
+                    NL Churches
                 </div>
             </div>
             <div className='flexCenter'>

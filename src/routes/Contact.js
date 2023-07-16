@@ -17,7 +17,7 @@ const Contact = (props) => {
             <Navbar />
             <div className='flexCenter pageContainer'>
                 <div className='Heading'>Our Churches</div>
-                <div className='flexColumns ourChurches'>
+                <div className='flexColumns infoView'>
                     <div className='map'>
                         <h2>St. Maurice Coptic Church</h2>
                         <h2>St. John's</h2>
@@ -35,7 +35,7 @@ const Contact = (props) => {
                         </iframe>
                     </div>
                 </div>
-                <div className='flexColumns ourChurches'>
+                <div className='flexColumns infoView'>
                     <div className='map'>
                         <h2>St. Mary, St. Verina and St. Moses the Black Coptic Church</h2>
                         <h2>Gander</h2>
@@ -56,7 +56,7 @@ const Contact = (props) => {
                 <div className='Heading'>Contact Father Demetrios</div>
                 <h3>demetrios.st.maurice@gmail.com</h3>
                 <div className='Heading'>Useful Links</div>
-                <div className='flexColumns ourChurches'>
+                <div className='flexColumns infoView'>
                     <div className='map'>
                         <h3><a href='https://eccopts.ca/' target="_blank">
                             Coptic Orthodox Diocese of Ottawa, Montreal, and Eastern Canada
@@ -74,8 +74,8 @@ const Contact = (props) => {
                         </a></h3>
                     </div>
                 </div>
-                <h3>Find a bug on this website? Contact one of our developers:</h3>
-                <div className='flexColumns ourChurches'>
+                <h3 className='infoView'>Find a bug on this website? Contact one of our developers:</h3>
+                <div className='flexColumns infoView'>
                     <p>Mark Armanious: markarmanus@gmail.com</p>
                     <p>Fady Philips: fadyaphilips97@gmail.com</p>
                 </div>

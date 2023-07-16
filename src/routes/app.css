@@ -95,7 +95,7 @@
     justify-content: space-between;
 }
 
-.ourChurches {
+.infoView {
     width: 70%;
     padding: 20px 0px;
     text-align: center;
@@ -139,7 +139,7 @@
         width: 90vw;
     }
 
-    .ourChurches {
+    .infoView {
         width: 90%;
     }
 
