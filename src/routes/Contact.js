@@ -26,7 +26,7 @@ const Contact = (props) => {
                         <p>NL, Canada</p>
                         <p>A1N 1T9</p>
                         <h3>Church Email</h3>
-                        <p>info@stmaurice.net</p>
+                        <p><a href="info@stmaurice.net">info@stmaurice.net</a></p>
                     </div>
                     <div>
                         <iframe
@@ -44,7 +44,7 @@ const Contact = (props) => {
                         <p>NL, Canada</p>
                         <p>A1V 1V3</p>
                         <h3>Church Email</h3>
-                        <p>smvmcoc@gmail.com</p>
+                        <p><a href="smvmcoc@gmail.com">smvmcoc@gmail.com</a></p>
                     </div>
                     <div>
                         <iframe
@@ -54,7 +54,7 @@ const Contact = (props) => {
                     </div>
                 </div>
                 <div className='Heading'>Contact Father Demetrios</div>
-                <h3>demetrios.st.maurice@gmail.com</h3>
+                <h3><a href="demetrios.st.maurice@gmail.com">demetrios.st.maurice@gmail.com</a></h3>
                 <div className='Heading'>Useful Links</div>
                 <div className='flexColumns infoView'>
                     <div className='map'>
@@ -76,8 +76,8 @@ const Contact = (props) => {
                 </div>
                 <h3 className='infoView'>Find a bug on this website? Contact one of our developers:</h3>
                 <div className='flexColumns infoView'>
-                    <p>Mark Armanious: markarmanus@gmail.com</p>
-                    <p>Fady Philips: fadyaphilips97@gmail.com</p>
+                    <p><a href="mailto:markarmanus@gmail.com">Mark Armanious</a></p>
+                    <p><a href="mailto:fadyaphilips97@gmail.com">Fady Philips</a></p>
                 </div>
             </div>
             <Footer />
